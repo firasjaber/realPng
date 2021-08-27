@@ -1,0 +1,12 @@
+{
+  "name": "Real PNG Detector",
+  "action": {},
+  "description": "Detects images with the .png extension on a web page",
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
