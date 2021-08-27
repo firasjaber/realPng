@@ -4,7 +4,7 @@
   "description": "Detects images with the .png extension on a web page",
   "manifest_version": 3,
   "version": "0.1.0",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "contextMenus"],
   "background": {
     "service_worker": "./background.js"
   },
